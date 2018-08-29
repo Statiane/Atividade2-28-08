@@ -1,0 +1,66 @@
+html, body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+}
+.caixas{
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    height: 100%;
+    display: flex;
+    /*row| row-rerverse| column | column| column-reverse*/
+    flex-direction: row;
+    /* nowrap | warap| wrap-reverse*/
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:stretch;
+    
+}
+
+.caixas2{
+    
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+
+
+}
+.caixas3{
+
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items:center;
+}
+.caixas4{
+
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items:center;
+}
+.caixa{
+
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    color: #fff;
+    border: 1px solid #333;
+    width: 400px;
+    height: 200px;
+    margin: 5px;
+}
+
+    
